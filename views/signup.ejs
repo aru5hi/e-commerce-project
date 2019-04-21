@@ -1,0 +1,86 @@
+<!--required links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--BOOTSTRAP Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--BOOTSTRAP Latest compiled and minified JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="signup.css">
+<!--jQuery-->
+<script type="text/javascript" src="home.js"></script>
+<!--FONTS-->
+<link href="https://fonts.googleapis.com/css?family=Righteous&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+	
+
+<html>
+<head>
+	
+	<title>SHROMEC</title>
+	
+</head>
+<body>
+	
+		
+		<!--navbar main-->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		
+		
+		<div class="navbar-header">
+			<!--HEADER AND COLLAPSE DROPDOWN -->
+			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<a href="/" class="navbar-brand" style="margin-left:20px;"><span style="float: right; color:#39398F;"><img src="SHROM_ICON.jpg">HROM</span></a>  
+		</div >
+		<!-- other components of navbar -->
+	<div class="container-fluid" >
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/">HOME</a></li>
+				<li><a href="#">T-SHIRTS</a></li>
+				<li><a href="#">POLO</a></li>
+				<li><a href="#">SWEATSHIRTS</a></li>
+				<li><a href="" style="border-right: 2px solid #39398F">CUSTOMIZED GOODS </a></li>
+				<li><a><img style="margin-right:10px;height: 25px; width: 25px;" src="http://pngimg.com/uploads/shopping_cart/shopping_cart_PNG3.png"></a></li>
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+    				 <img style="margin-top:20px;height: 25px; width: 25px;" src="https://exactax.com/track/img/hr.png"><span class="caret"></span>
+   				 </a>
+   				 <div class="dropdown-menu">
+     				<li>Already a member?<a href="/login">LOGIN</a></li>
+     			
+    			</div> 
+    		
+      		</ul>
+     	</div>
+
+	</div>
+	</div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-6 new">
+			<span class="new"><p align="center" style="font-size:60px;">Hi we're SHROM.</p><br>
+			<h4 style="margin-left:50px;">Not a member of the Shromec family yet? Sign up to our website and exercise special benefits, coupons and deals!</h4>
+			</span>
+		</div>
+		<div class="col-lg-6">
+			<form class="beaut" method="POST" action="/register">
+				<h2 align="center">Create a new account</h2>
+				<p align="center">It's free and always will be.</p>
+				<input style="width:45%" type="text" placeholder="First Name" name="fname"><input style="width:45%" type="text" placeholder="Last Name" name="lname"><br>
+				<input type="text" placeholder="Email" name="email"><br>
+				<input type="password" placeholder="Password" name="password">
+				<input type="password" placeholder="Confirm Password">
+				<br><br> &nbsp &nbspDate of birth<br><input type="date" name="date" placeholder="date of birth">
+				<br> <button> Sign Up</button><br>
+			</form>
+		</div>
+	</div>
+</div>

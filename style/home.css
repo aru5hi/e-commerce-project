@@ -1,0 +1,154 @@
+body{
+	background:url("background-vector new.jpg");
+	background-attachment: fixed;
+}
+
+a.navbar-brand{
+	font-family: 'Fredoka One';
+	font-size: 30px;
+	color:#040494;
+    }
+
+.shad>img{
+	height:600px;
+width:1349px;
+}
+span>img{
+    width: 40px;
+    height:40px;
+}
+nav.navbar.navbar-default.navbar-fixed-top.glass{
+	background-color: rgba(250,250,250,0.9);
+}
+nav.navbar.navbar-default{
+	background:rgba(0,0,0,0);
+	border-color:rgba(0,0,0,0);
+    color:#040494;
+    
+}
+ul.nav.navbar-nav.bg>li{font-family: 'Righteous'; margin-right:10px; }
+
+div.dropdown-menu{
+	background:rgba(255,255,255,0.8);
+	border-color:#040494;
+    text-align:center;
+    font-family:'Fredoka One';
+    
+}
+div.dropdown-menu>li>a{
+	color:#040494;
+}
+div.dropdown-menu>li>a:hover{
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+}
+
+.shad>img.active{
+	visibility:visible;
+}
+.shad>img.passive{
+	visibility:hidden;
+}
+a:hover{
+	color:#10A6F7;
+}
+form.navbar-form.navbar-right>button{
+	background:rgba(0,0,0,0);
+border:solid 0px grey;
+
+}
+ul.nav.navbar-nav>li>a{
+	font-family: 'Fredoka One';
+	font-size: 15px;
+margin-top: 5px;
+	color:#040494;
+}
+ul.nav.navbar-nav>li>a:visited{
+	text-decoration: underline;
+}
+
+/*IMAGE SLIDER*/
+@keyframes slideshow{
+  0% {opacity:1;}
+  17% {opacity:1;}
+  25% {opacity:0;}
+  92% {opacity:0;}
+  100% {opacity:1;}
+}
+@media only screen and (max-width: 1026px) { 
+  #slideshow { 
+    display: none; 
+  } 
+  div.con.container-fluid{
+	margin:200px 100px 0 100px;
+}
+}
+#slideshow img.top{
+	animation-delay: 18s;
+}
+
+#slideshow img.mid{
+	animation-delay: 12s;
+}
+#slideshow img.mid2{
+	animation-delay: 6s;
+}
+#slideshow img.bottom{
+	animation-delay: 0s;
+}
+#slideshow img{
+	position:absolute;
+		height:657px;
+	width:1349px;
+ animation-name:slideshow;
+	animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration:24s;}
+
+/*IMAGE SLIDER END*/
+div.xx{
+	margin-left:150px;
+	margin-right:60px;
+}
+/* description boxes*/
+div.col-lg-3.col-md-4.boxms{
+	color:#040494;
+	font-family: 'Fredoka One';
+	font-size:16px;
+	border: solid 5px #eaeae1;
+	box-sizing: border-box;
+	padding:10px;
+	border-radius:10px;
+	margin-right:40px;
+}
+/*images*/
+div.col-lg-4.col-md-4.col-sm-3.col-xs-3.sub>img{
+	display:block;
+	width:100%;
+	height:300px;
+	border:solid 1px #eaeae1;
+	}
+
+
+//div.col-lg-3.col-xs-3>img{
+//	height:500px;
+//}
+div.con.container-fluid{
+	margin:600px 100px 0 100px;
+}
+div.col-lg-4.col-sm-3.sub:hover .overlay{
+opacity:1;
+}
+.overlay{
+	opacity:0;
+	background:rgb(0,0,0);
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	width:92.5%;
+	color:#ffffff;
+	text-align: center;
+	font-size: 20px;
+	bottom:0;
+	transition:0.5s;
+	font-family:'Fredoka One';
+}
